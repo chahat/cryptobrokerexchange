@@ -1,5 +1,5 @@
 flask
-
+gunicorn
 numpy
 
 flask-restful
