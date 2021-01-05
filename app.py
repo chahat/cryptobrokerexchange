@@ -35,4 +35,4 @@ class Exchange(Resource):
 app = Flask(__name__)
 api = Api(app)
 api.add_resource(Exchange, "/btc-price")
-app.run(debug=True)
+app.run()
